@@ -1,0 +1,106 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+	background-color: black;
+}
+.container{
+	max-width: 80%;
+	width: 90%;
+	height: 600px;
+	margin: 0 auto;
+}
+
+/*entrada de text*/
+
+.entrada {
+	display: flex;
+	height: 70px;
+	align-items: center;
+	padding: 10px;
+	margin: 40px 0;
+	justify-content: space-around;
+	border: solid 3px white;
+	border-radius: 8px;
+}
+
+.productos {
+	background-color: black;
+	width: 80%;
+	height: 100%;
+	letter-spacing: 2px;
+	border: none;
+	font-size: 20px;
+}
+
+.cantidad {
+	background-color: black;
+	width: 10%;
+	height: 100%;
+	letter-spacing: 2px;
+	font-size: 20px;
+	border: none;
+}
+
+.entrada i{
+	font-size: 30px;
+}
+
+.entrada i:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+	color: #6a6a6a;
+}
+
+/*Salidas*/
+.salida{
+	height: auto;
+	width: auto;
+	border: solid 3px white;
+	border-radius: 8px;
+}
+
+.contenedor li{
+	display: flex;
+	align-items: center;
+	letter-spacing: 2px;
+	font-size: 20px;
+	padding: 20px 10px;
+}
+
+.contenedor li span{
+	width: 90%;
+}
+
+.contenedor li div{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	letter-spacing: 10px;
+	width: 20%;
+}
+.cant {
+	background-color: black;
+	height: 100%;
+	width: 60%;
+	border: none;
+	font-size: 20px;
+	text-align: center;
+}
+
+.i{
+	text-align: right;
+}
+
+/*salidas*/
+
+#less:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+	color: #6a6a6a;
+}
